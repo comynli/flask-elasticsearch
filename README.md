@@ -1,26 +1,17 @@
 ===================
-Flask-ZeroRPC
+Flask-ElasticSearch
 ===================
 
-Integrates ``zerorpc`` with Flask (a very thin wrapper).
+Integrates ``elasticsearch`` with Flask (a very thin wrapper).
 
 Installation
 ============
 
-Flask-ZeroRPC is pip installable.
-    
-    git clone http://github.com/lixm/flask-zerorpc
-    cd flask-zerorpc
-    pip install .
+Flask-ElasticSearch is not pip installable. you must be clone it and run ``python setup.py install``
+
 
 Configure
 =========
 
-Tow configurations, `ZERORPC_SERVER_ENDPOINT` for server and `ZERORPC_CLIENT_ENDPOINT` for client
+The only configuration is `ELASTICSEARCH_URL`, defaults to `http://localhost:9200/`.
 
-
-Development
-===========
-
-Source code is hosted on `GitHub <https://github.com/lixm/flask-zerorpc>`_
-(contributions are welcome).
